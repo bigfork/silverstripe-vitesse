@@ -1,0 +1,24 @@
+{
+	"name": "bigfork/silverstripe-vitesse",
+	"type": "silverstripe-vendormodule",
+	"description": "Silverstripe and Vite, built on Laravel’s Vite support",
+	"keywords": ["silverstripe", "vite", "laravel", "laravel-vite"],
+	"authors": [
+		{
+			"name": "Loz Calver",
+			"email": "loz@bigfork.co.uk"
+		}
+	],
+	"license": "BSD-3-Clause",
+	"require": {
+		"laravel/framework": "^10 || ^11 || ^12",
+		"silverstripe/framework": "^5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bigfork\\Vitesse\\": "src/"
+		}
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}

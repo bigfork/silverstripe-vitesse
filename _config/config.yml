@@ -1,0 +1,13 @@
+---
+Name: silverstripe-vitesse
+---
+SilverStripe\Core\Injector\Injector:
+  Bigfork\Vitesse\Vite:
+    class: 'Bigfork\Vitesse\Vite'
+    calls:
+      assetPathResolver: [ 'createAssetPathsUsing', [ ['Bigfork\Vitesse\Vite', 'resolveAssetPath'] ] ]
+  SilverStripe\View\SSTemplateParser:
+    properties:
+      openBlocks:
+        vite: 'Bigfork\Vitesse\TemplateProvider::vite'
+        viteReactRefresh: 'Bigfork\Vitesse\TemplateProvider::viteReactRefresh'
