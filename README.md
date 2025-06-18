@@ -45,6 +45,8 @@ Include scripts/stylesheets using the `<% vite %>` tag, for example:
 </head>
 ```
 
+For React projects, you can also include `<% viteReactRefresh %>`. Note that this must be included before any calls to `<% vite %>`
+
 Paths for assets processed via Vite can be output using `$viteAsset`:
 ```html
 <img src="{$viteAsset('src/images/logo.svg')}" alt="Logo" width="100" height="100" />
