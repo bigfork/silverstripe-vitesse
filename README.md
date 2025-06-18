@@ -1,6 +1,6 @@
 # Silverstripe Vitesse
 
-Support for Vite in Silverstripe, built atop Laravel’s Vite components.
+Support for Vite in Silverstripe, built atop [Laravel’s Vite components](https://laravel.com/docs/12.x/vite).
 
 ## Setup
 
@@ -32,6 +32,8 @@ export default defineConfig({
 ```
 
 ## Usage
+
+Most of the [Laravel Vite documentation](https://laravel.com/docs/12.x/vite) applies, though with an adjusted syntax for Silverstripe templates vs Blade.
 
 Include scripts/stylesheets using the `<% vite %>` tag, for example:
 ```html
