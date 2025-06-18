@@ -5,7 +5,7 @@ Support for Vite in Silverstripe, built atop [Laravel’s Vite components](https
 ## Setup
 
 ```bash
-composer require bigfork/silverstripe-vite
+composer require bigfork/silverstripe-vitesse
 ```
 
 Setup the `laravel-vite-plugin` in your `vite.config.js`:
