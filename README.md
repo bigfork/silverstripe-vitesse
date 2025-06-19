@@ -31,6 +31,8 @@ export default defineConfig({
 })
 ```
 
+[Full configuration example](https://github.com/bigfork/silverstripe-recipe/blob/9568ff5b3d121e3f2a0a069e6be9f9a553d1128e/themes/default/vite.config.js) and matching [YAML configuration](https://github.com/bigfork/silverstripe-recipe/blob/9568ff5b3d121e3f2a0a069e6be9f9a553d1128e/app/_config/vite.yml).
+
 ## Usage
 
 Most of the [Laravel Vite documentation](https://laravel.com/docs/12.x/vite) applies, though with an adjusted syntax for Silverstripe templates vs Blade.
