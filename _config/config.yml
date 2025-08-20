@@ -6,7 +6,7 @@ SilverStripe\Core\Injector\Injector:
     class: 'Bigfork\Vitesse\Vite'
     calls:
       assetPathResolver: [ 'createAssetPathsUsing', [ ['Bigfork\Vitesse\Vite', 'resolveAssetPath'] ] ]
-  SilverStripe\View\SSTemplateParser:
+  SilverStripe\TemplateEngine\SSTemplateParser:
     properties:
       openBlocks:
         vite: 'Bigfork\Vitesse\TemplateProvider::vite'
